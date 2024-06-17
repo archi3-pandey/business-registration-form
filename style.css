@@ -1,0 +1,570 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Playwrite FR Moderne", cursive;
+    background-color:black;
+    color:#fff;
+
+
+}
+.heading{
+    display:flex;
+    justify-content:center;
+}
+.para{
+    color:#fff;
+    display:flex;
+    justify-content: center;
+}
+.form-container{
+    display:flex;
+    justify-content: center;
+}
+.name{
+    margin-top:20px;
+    display:flex;
+
+}
+#input1{
+    margin:30px;
+    color:#fff;
+    width:30vw;
+    border:2px solid white;
+
+}
+#inhead1{
+    margin:30px;
+}
+
+.business{
+    display: flex;
+    justify-content: center;
+}
+.business-name{
+    display:flex;
+}
+#input2{
+    width:65vw;
+    color:#fff;
+    border:2px solid white;
+    margin:30px;
+}
+
+#inhead2{
+    margin:30px;
+}
+.contact-page{
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    display:flex;
+}
+#input3{
+    width:65vw;
+    color:#fff;
+    border:2px solid white;
+    margin:30px;
+}
+
+#inhead3{
+    margin:30px;
+}
+
+.address-page{
+    display: flex;
+    justify-content: center;
+}
+.address{
+    display:flex;
+}
+#input4{
+    width:65vw;
+    color:#fff;
+    border:2px solid white;
+    margin:30px;
+}
+
+#inhead4{
+    margin:30px;
+}
+.business-option{
+    display: flex;
+    justify-content: center;
+}
+.business-type{
+    display:flex;
+}
+select{
+    width:65vw;
+    color:#fff;
+    border:2px solid white;
+    margin:30px
+
+}
+#inhead5{
+    margin:30px;
+}
+.other-page{
+    display: flex;
+    justify-content: center;
+}
+.other{
+    display:flex;
+}
+#input6{
+    width:65vw;
+    color:#fff;
+    border:2px solid white;
+    margin:30px
+
+}
+#inhead6{
+    margin:30px;
+}
+.message-page{
+    display: flex;
+    justify-content: center;
+}
+.message{
+    display:flex;
+}
+#input7{
+    width:65vw;
+    color:#fff;
+    border:2px solid white;
+    margin:30px
+
+}
+#inhead7{
+    margin:35px;
+}
+.btn-page{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    color:black;
+    background-color:#fff;
+    border:2ps solid black;
+}
+
+@media only screen and ((min-width:678px) and (max-width:806px)){
+
+    #input1{
+        width:20vw;
+        
+    }
+    #input2{
+        width:49vw;
+
+    }
+    #input3{
+        width:49vw;
+        
+    }
+    #input4{
+
+        width:49vw;
+    
+    }
+    select{
+        width:49vw;
+
+    }
+    #input6{
+        width:49vw;
+        
+    }
+    #input7{
+        width:45vw;
+    
+    }
+}
+@media only screen and ((min-width:540px) and (max-width:677px)){
+    
+    #input1{
+        width:20vw;
+    }
+    #input2{
+        width:49vw;
+    }
+    #input3{
+        width:49vw;
+    }
+    #input4{
+
+        width:49vw;
+    }
+    select{
+        width:45vw;
+
+    }
+    #input6{
+        width:49vw;
+    }
+    #input7{
+        width:45vw;
+    }
+    #para{
+        font-size:1px;
+    }
+}
+
+@media only screen and ((min-width:501px) and (max-width:539px)){
+    
+    #input1{
+        width:17vw;
+    }
+    #input2{
+        width:47vw;
+    }
+    #input3{
+        width:47vw;
+    }
+    #input4{
+
+        width:47vw;
+    }
+    select{
+        width:42vw;
+
+    }
+    #input6{
+        width:47vw;
+    }
+    #input7{
+        width:45vw;
+    }
+}
+@media only screen and ((min-width:400px) and (max-width:500px)){
+    .heading{
+        font-size:15px;
+    }
+    
+    .form-container{
+        flex-direction: column;
+    }
+    .name{
+        flex-direction:column;
+    }
+    #inhead1{
+        margin:5px;
+    }
+    #input1{
+        width:65vw;
+        margin:5px;
+    }
+    .business{
+        flex-direction: column;
+    }
+    .business-name{
+        flex-direction: column;
+    }
+    #inhead2{
+        margin:5px;
+    }
+    #input2{
+        width:65vw;
+        margin:5px;
+    }
+    .contact-page{
+        flex-direction:column;
+    }
+    .contact{
+        flex-direction:column;
+    }
+    #inhead3{
+        margin:5px;
+    }
+    #input3{
+        width:65vw;
+        margin:5px;
+    }
+    .address-page{
+        flex-direction: column;
+    }
+    .address{
+        flex-direction:column;
+    }
+    #inhead4{
+        margin:5px;
+    }
+    #input4{
+
+        width:65vw;
+        margin:5px;
+    }
+    .business-option{
+        flex-direction:column;
+        
+    }
+    .business-type{
+        flex-direction: column;
+    }
+    #inhead5{
+        margin:5px;
+    }
+    select{
+        width:56vw;
+        margin:4px;
+
+    }
+    .other-page{
+        flex-direction: column;
+                                                                                                                                                                                                                                                                                                                                                                                                                             
+    }
+    .other{
+        flex-direction:column;
+        margin:5px;
+    }
+    #input6{
+        width:65vw;
+        margin:5px;
+    }
+    #inhead6{
+        margin:5px;
+
+    }
+    .message-page{
+        flex-direction:column;
+
+    }
+    .message{
+        flex-direction:column;
+        margin:5px;
+    }
+    #inhead7{
+        margin:5px;
+    }
+    #input7{
+        width:45vw;
+        margin:5px;
+    }
+}
+@media only screen and ((min-width:300px) and (max-width:400px)){
+    .heading{
+        font-size:10px;
+    }
+    .form-container{
+        flex-direction: column;
+    }
+    .name{
+        flex-direction:column;
+    }
+    #inhead1{
+        margin:5px;
+    }
+    #input1{
+        width:65vw;
+        margin:5px;
+    }
+    .business{
+        flex-direction: column;
+    }
+    .business-name{
+        flex-direction: column;
+    }
+    #inhead2{
+        margin:5px;
+    }
+    #input2{
+        width:65vw;
+        margin:5px;
+    }
+    .contact-page{
+        flex-direction:column;
+    }
+    .contact{
+        flex-direction:column;
+    }
+    #inhead3{
+        margin:5px;
+    }
+    #input3{
+        width:65vw;
+        margin:5px;
+    }
+    .address-page{
+        flex-direction: column;
+    }
+    .address{
+        flex-direction:column;
+    }
+    #inhead4{
+        margin:5px;
+    }
+    #input4{
+
+        width:65vw;
+        margin:5px;
+    }
+    .business-option{
+        flex-direction:column;
+        
+    }
+    .business-type{
+        flex-direction: column;
+    }
+    #inhead5{
+        margin:5px;
+    }
+    select{
+        width:56vw;
+        margin:4px;
+
+    }
+    .other-page{
+        flex-direction: column;
+                                                                                                                                                                                                                                                                                                                                                                                                                             
+    }
+    .other{
+        flex-direction:column;
+        margin:5px;
+    }
+    #input6{
+        width:65vw;
+        margin:5px;
+    }
+    #inhead6{
+        margin:5px;
+
+    }
+    .message-page{
+        flex-direction:column;
+
+    }
+    .message{
+        flex-direction:column;
+        margin:5px;
+    }
+    #inhead7{
+        margin:5px;
+    }
+    #input7{
+        width:45vw;
+        margin:5px;
+    }
+    .btn-page{
+        flex-direction: column;
+
+    }
+    
+}
+@media only screen and ((min-width:200px) and (max-width:300px)){
+    .heading{
+        font-size:11px;
+    }
+    .form-container{
+        flex-direction: column;
+    }
+    .name{
+        flex-direction:column;
+    }
+    #inhead1{
+        margin:5px;
+    
+    }
+    #input1{
+        width:65vw;
+        margin:5px;
+    }
+    .business{
+        flex-direction: column;
+    }
+    .business-name{
+        flex-direction: column;
+    }
+    #inhead2{
+        margin:5px;
+        
+    }
+    #input2{
+        width:65vw;
+        margin:5px;
+        
+    }
+    .contact-page{
+        flex-direction:column;
+    }
+    .contact{
+        flex-direction:column;
+    }
+    #inhead3{
+        margin:5px;
+        
+    }
+    #input3{
+        width:65vw;
+        margin:5px;
+        
+    }
+    .address-page{
+        flex-direction: column;
+    }
+    .address{
+        flex-direction:column;
+    }
+    #inhead4{
+        margin:5px;
+        
+    }
+    #input4{
+
+        width:65vw;
+        margin:5px;
+    }
+    .business-option{
+        flex-direction:column;
+        
+    }
+    .business-type{
+        flex-direction: column;
+    }
+    #inhead5{
+        margin:5px;
+        
+    }
+    select{
+        width:56vw;
+        margin:4px;
+
+    }
+    .other-page{
+        flex-direction: column;
+                                                                                                                                                                                                                                                                                                                                                                                                                             
+    }
+    .other{
+        flex-direction:column;
+        margin:5px;
+    }
+    #input6{
+        width:65vw;
+        margin:5px;
+    }
+    #inhead6{
+        margin:5px;
+        
+
+    }
+    .message-page{
+        flex-direction:column;
+
+    }
+    .message{
+        flex-direction:column;
+        margin:5px;
+    }
+    #inhead7{
+        margin:5px;
+        
+    }
+    #input7{
+        width:45vw;
+        margin:5px;
+    }
+    .btn-page{
+        flex-direction: column;
+    }
+}
